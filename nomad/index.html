@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/greetings.js" defer></script>
+    <script src="js/clock.js" defer></script>
+    <script src="js/quotes.js" defer></script>
+    <script src="js/backgrouds.js" defer></script>
+    <script src="js/todo.js" defer></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <form id="Login-Form" class="hidden">
+        <label for="UserName">What is your name?</label>
+        <input required maxlength="15" type="text" placeholder="What is your name?" id="UserName" name="UserName" />
+        <button type="submit">Log In</button>
+    </form>
+    <h1 id="greeting" class="hidden"></h1>
+    <h2 id="Clock">00:00:00</h2>
+    <div id="quote">
+        <span></span>
+        <br>
+        <span></span>
+    </div>
+    <form id="Todo-Form" action="">
+        <input required type="text" placeholder="Write a To do And Press Enter">
+    </form>
+    <ul id="Todo-List"></ul>
+</body>
+
+</html>
